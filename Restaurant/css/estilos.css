@@ -92,7 +92,7 @@ li {
 }
 
 .submenu1 {
-    position: relative;
+    display: block;
     text-align: center;
     padding: 20px;
     width: 100%;
@@ -112,6 +112,7 @@ li {
 }
 
 .navegacion li:hover ul {
+    position: absolute;
     display: block;
 }
 
