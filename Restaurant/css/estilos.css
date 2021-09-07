@@ -86,6 +86,12 @@ li {
     transition: linear .2s all;
 }
 
+.icono {
+    font-size: 40px;
+    display: flex;
+    align-items: center;
+}
+
 .navegacion__enlace:hover {
     color: black;
     transition: linear .2s all;
@@ -151,4 +157,5 @@ li {
 
 .redes {
     color: white;
+    font-size: 20px;
 }
