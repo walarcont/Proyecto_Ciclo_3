@@ -79,6 +79,8 @@ li {
 .navegacion {
     display: flex;
     gap: 40px;
+    width: 285.717px;
+    height: 40px;
 }
 
 .navegacion__enlace {
@@ -86,41 +88,152 @@ li {
     transition: linear .2s all;
 }
 
-.icono {
-    font-size: 40px;
-    display: flex;
-    align-items: center;
-}
-
 .navegacion__enlace:hover {
+    font-size: 22px;
     color: black;
     transition: linear .2s all;
 }
 
-.submenu1 {
+.icono {
+    font-size: 40px;
+    display: flex;
+    align-items: center;
+    color: white;
+    transition: linear .2s all;
+}
+
+.icono:hover {
+    color: black;
+    cursor: pointer;
+    font-size: 42px;
+    transition: linear .2s all;
+}
+
+.submenu {
+    display: none;
+    margin-top: 15%;
+    margin-left: -80%;
+}
+
+#user:checked ~ .submenu {
     display: block;
+}
+
+.opc-user {
+    position: relative;
+    display: flex;
     text-align: center;
     padding: 20px;
-    width: 100%;
-    height: 80px;
     background: rgb(133, 133, 133);
     color: white;
     transition: linear .2s all;
 }
 
-.submenu1:hover {
+.opc-user:hover {
     background: black;
     transition: linear .2s all;
 }
 
-.navegacion li ul {
+#user {
     display: none;
 }
 
-.navegacion li:hover ul {
-    position: absolute;
-    display: block;
+/* Boton carrito */
+
+
+.carrito {
+    background: #ffc400;
+    color: black;
+    width: 70px;
+    height: 70px;
+    text-align: center;
+    border-radius: 50%;
+    box-shadow: 0 1px 10px rgba(0, 0, 0, .4);
+    transition: all .1s ease;
+    padding: 25px 21px 25px 20px;
 }
+
+.carrito:hover {
+    background: #d1a101;
+    color: white;
+    transition: all .2s ease;
+}
+
+.container {
+    position: fixed;
+    right: 10%;
+    margin-top: 10%;
+}
+
+/* Slider */
+  
+.container-slider {
+    margin: auto;
+    background-color: white;
+    width: 800px;
+    height: 480px;
+    padding: 30px;
+}
+  
+ul, li {
+    padding: 0;
+    margin: 0;
+    list-style: none;
+}
+  
+ul.slider{
+    position: relative;
+    width: 100%;
+    height: 400px;
+}
+  
+ul.slider li {
+    position: absolute;
+    left: 0px;
+    top: 0px;
+    opacity: 0;
+    width: inherit;
+    height: inherit;
+    transition: opacity .5s;
+    background:#fff;
+}
+  
+ul.slider li img{
+    width: 740px;
+    height: 400px;
+    object-fit: cover;
+}
+  
+ul.slider li:first-child {
+    opacity: 1; /*Mostramos el primer <li>*/
+}
+  
+ul.slider li:target {
+    opacity: 1; /*Mostramos el <li> del enlace que pulsemos*/
+}
+  
+.menu{
+    text-align: center;
+    margin: 20px;
+}
+  
+.menu li{
+    display: inline-block;
+    text-align: center;
+}
+  
+.menu li a{
+    display: inline-block;
+    color: white;
+    text-decoration: none;
+    background-color: grey;
+    padding: 10px;
+    width: 20px;
+    height: 20px;
+    font-size: 20px;
+    border-radius: 100%;
+}
+
 
 /* Footer */
 .footer {
