@@ -141,7 +141,7 @@ li {
 /* Boton carrito */
 
 
-.carrito {
+.btn-carrito {
     background: #ffc400;
     color: black;
     width: 70px;
@@ -150,12 +150,17 @@ li {
     border-radius: 50%;
     box-shadow: 0 1px 10px rgba(0, 0, 0, .4);
     transition: all .1s ease;
-    padding: 25px 21px 25px 20px;
+    padding: 17px;
 }
 
-.carrito:hover {
+.icono-carrito {
+    color: black;
+}
+
+.btn-carrito:hover {
     background: #d1a101;
     color: white;
+    cursor: pointer;
     transition: all .2s ease;
 }
 
