@@ -10,7 +10,7 @@
       integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf"
       crossorigin="anonymous"
     />
-    <link rel="stylesheet" href="styleDetalles.css" />
+    <link rel="stylesheet" href="estilos/styleDetalles.css" />
     <title>Detalles de un producto</title>
   </head>
   <body>
@@ -24,32 +24,42 @@
     </nav>
     <main>
       <div class="product-container">
-        <p>Titulo</p>
+        <p class="product-name">Titulo</p>
         <div class="product-info">
-          <img src="" alt="" />
-          <div>
-            <p>
-              Magna Lorem adipisicing excepteur enim. Duis culpa fugiat deserunt
-              aliqua minim id in aliqua reprehenderit. Cupidatat eu eiusmod
-              mollit elit aliquip irure nostrud et non minim cupidatat est.
-              Exercitation veniam sit consectetur aliqua.
-            </p>
-            <p>Precio</p>
+          <img
+            class="producto-img"
+            src="https://images.unsplash.com/photo-1484723091739-30a097e8f929?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=387&q=80"
+          />
+          <div class="product-data">
+            <div>
+              <p>
+                Magna Lorem adipisicing excepteur enim. Duis culpa fugiat deserunt
+                aliqua minim id in aliqua reprehenderit. Cupidatat eu eiusmod
+                mollit elit aliquip irure nostrud et non minim cupidatat est.
+                Exercitation veniam sit consectetur aliqua.
+              </p>
+              <p>Precio</p>
+            </div>
             <div class="product-btns">
-              <div></div>
+              <div class="iteractive-btns">
+                <button class=""><i class="fas fa-minus"></i></button>
+                <span class="product-amount">1</span>
+                <button class=""><i class="fas fa-plus"></i></button>
+              </div>
               <button>
                 Agregar al carrito <i class="fas fa-cart-plus"></i>
               </button>
             </div>
+            <div class="product-preferences">
+              <h3>Preferencias</h3>
+              <label for="preference_1">Preferencia 1</label>
+              <input type="checkbox" name="preference_1" id="preference_1" />
+              <label for="preference_2">Preferencia 2</label>
+              <input type="checkbox" name="preference_2" id="preference_2" />
+              <label for="preference_3">Preferencia 3</label>
+              <input type="checkbox" name="preference_3" id="preference_3" />
+            </div>
           </div>
-        </div>
-        <div class="product-preferences">
-          <label for="preference_1">Preferencia 1</label>
-          <input type="checkbox" name="preference_1" id="preference_1" />
-          <label for="preference_2">Preferencia 2</label>
-          <input type="checkbox" name="preference_2" id="preference_2" />
-          <label for="preference_3">Preferencia 3</label>
-          <input type="checkbox" name="preference_3" id="preference_3" />
         </div>
       </div>
     </main>
