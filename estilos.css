@@ -51,33 +51,7 @@ li {
     text-align: center;
 }
 
-#caja-op{
-    height: 600px;
-    width: 20%;
-    position: absolute;
-    margin: 5% auto;
-    background: rgba(0, 0, 0, 0.698);
-    padding: 10px;
-    overflow: hidden;
-    border-radius: 20px;
-    float: left;
-    color:cornsilk;
-    font-family: 'Product Sans', sans-serif;
-    font-size: 10px;
-}
-#caja-datos{
-    height: 700px;
-    width: 1400px;
-    margin: 5% auto;
-    background: rgba(0, 0, 0, 0.698);
-    padding: 10px;
-    float:right;
-    overflow: hidden;
-    border-radius: 20px;
-    color:cornsilk;
-    font-family: 'Product Sans', sans-serif;
-    font-size: 10px;
-}
+
 .header {
     background-color: #ffc400;
     height: 180px;

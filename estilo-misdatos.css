@@ -1,0 +1,43 @@
+.entrada {
+    width: 100%;
+    padding: 10px 0;
+    margin: 5px 0;
+    border-left: 0;
+    border-top: 0;
+    border-right: 0;
+    border-bottom: 1px solid #ffc400;
+    outline: none;
+    background: transparent;
+    color: white;
+}
+#caja-op{
+    height: 600px;
+    width: 20%;
+    position: absolute;
+    margin: 5% auto;
+    background: rgba(0, 0, 0, 0.698);
+    padding: 10px;
+    overflow: hidden;
+    border-radius: 20px;
+    float: left;
+    color:cornsilk;
+    font-family: 'Product Sans', sans-serif;
+    font-size: 10px;
+}
+#caja-datos{
+    height: 700px;
+    width: 1400px;
+    margin: 5% auto;
+    background: rgba(0, 0, 0, 0.698);
+    padding: 10px;
+    float:right;
+    overflow: hidden;
+    border-radius: 20px;
+    color:cornsilk;
+    font-family: 'Product Sans', sans-serif;
+    font-size: 10px;
+}
+.datos {
+    width: 85%;
+    margin: 5% auto;
+}
