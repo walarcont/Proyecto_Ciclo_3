@@ -1,0 +1,50 @@
+.nosotros {
+    width: 70%;
+    margin: 40px auto 40px auto;
+    display: grid;
+    grid-template-columns: 30% 70%;
+    column-gap: 20px;
+    
+}
+
+.h1-nosotros {
+    font-size: 30px;
+    text-align: center;
+}
+
+.historia {
+    text-align: justify;
+    background-color: rgb(243, 243, 243);
+    grid-column: 2;
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 2px 2px 5px 0px rgba(150,150,150,1);
+}
+
+.accesos {
+    height: 280px;
+    text-align: justify;
+    background-color: rgb(243, 243, 243);
+    grid-column: 1;
+    grid-row: 1;
+    display: block;
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 2px 2px 5px 0px rgba(150,150,150,1);
+}
+
+.h3-nosotros {
+    font-size: 25px;
+    text-align: left;
+}
+
+.enlaces-accesos {
+    color: black;
+    display: block;
+    transition: all .2s ease;
+}
+
+.enlaces-accesos:hover {
+    transition: all .2s ease;
+    font-size: 22px;
+}

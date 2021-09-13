@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="css/estilos.css">
+    <link rel="stylesheet" href="css/pago.css">
+    <link rel="stylesheet" href="css/carrito.css">
+    <link rel="stylesheet" href="css/normalize.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css"
+        integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Restaurante</title>
+</head>
+
+<body>
+    <header class="header">
+        <div class="contenedor barra">
+
+            <nav class="navegacion">
+                <a href="index.html" class="navegacion__enlace">Inicio</a>
+                <a href="#" class="navegacion__enlace">Menú</a>
+                <a href="#" class="navegacion__enlace">Promociones</a>
+            </nav>
+            <a class="logo" href="index.html">
+                <h1 class="logo__nombre no-margin centrar-texto">Restaurante</h1>
+            </a>
+            <nav class="navegacion">
+                <a href="#" class="navegacion__enlace">Reservas</a>
+                <a href="#" class="navegacion__enlace">Sedes</a>
+                <input type="checkbox" id="user">
+                <label for="user" id="lbl-user"><i class="icono fas fa-user"></i></label>
+                <div class="submenu">
+                    <ul>
+                        <li><a href="login.html" class="opc-user">Iniciar sesión</a></li>
+                        <li><a href="registro.html" class="opc-user">Registrarse</a></li>
+                    </ul>
+                </div>
+            </nav>
+
+        </div>
+    </header>
+
+    <div class="carrito">
+        <div class="carrito1">
+            <h4 class="h4-pago no-margin no-padding">Complete la información:</h4>
+            <div class="form-pago">
+                
+            </div>
+        </div>
+        
+        <div class="resumen">
+            <h4 class="h4-resumen no-margin no-padding">Resumen</h4>
+            <div class="detalle">
+                <p>Subtotal</p>
+                <p>Envío</p>
+                <p><b>Descuentos</b></p>
+                <p>Cupones</p>
+                <p>Promociones</p>
+                <p><b>Total descuentos</b></p>
+                <p><b>Total a pagar</b></p>
+                <p><b>Agregar cupón</b></p>
+            </div>
+            <div class="valor">
+                <p>$160000</p>
+                <p>$5000</p>
+                <p><b>&nbsp</b></p>
+                <p>$20000</p>
+                <p>$0</p>
+                <p><b>$20000</b></p>
+                <p><b>$140000</b></p>
+            </div>
+            <input type="text" class="entrada-carrito" placeholder="Ingrese un código de descuento">
+            <button class="submit-btn1">Ingresar</button>
+            <a href="pago.html" class="submit-btn">Pagar</a>
+        </div>
+    </div>
+
+    <footer class="footer">
+        <div class="footer__contacto">
+            <h4 class="titulo">Contáctanos</h4>
+            <p>Restaurante</p>
+            <p>Calle 00 00 00</p>
+            <p>Bogotá, Colombia</p>
+            <p>Llamanos: 3000000000</p>
+            <p>Email: contacto@restaurante.com</p>
+        </div>
+        <div class="footer__redes">
+            <h4 class="titulo">Síguenos</h4>
+            <a href="#" class="redes"><i class="fab fa-facebook-square"></i></a>
+            <a href="#" class="redes"><i class="fab fa-instagram"></i></a>
+            <a href="#" class="redes"><i class="fab fa-twitter"></i></a>
+            <a href="#" class="redes"><i class="fab fa-youtube"></i></a>
+        </div>
+        <div class="footer__info">
+        </div>
+    </footer>
+</body>
+</html>
