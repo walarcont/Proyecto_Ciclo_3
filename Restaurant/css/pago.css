@@ -1,6 +1,50 @@
+html {
+    background: white;
+}
+
 .h4-pago {
+    grid-row: 1;
     font-size: 25px;
     text-align: left;
     grid-column: 1 / 6;
     margin: 0 auto;
+}
+
+.pago {
+    display: grid;
+    grid-template-columns: 50% 50%;
+    background-color: rgb(243, 243, 243);
+    width: 65%;
+    padding: 7px 20px 0 20px;
+    border-radius: 10px;
+    box-shadow: 2px 2px 5px 0px rgba(150,150,150,1);
+    
+}
+
+.form1 {
+    grid-column: 1;
+    grid-row: 1 / 2;
+    margin-top: 35px;
+    margin-right: 20px;
+}
+
+.form2 {
+    grid-column: 2;
+    grid-row: 1 / 2;
+    margin-top: 35px;
+}
+
+.span {
+    color: black;
+    display: flex;
+}
+
+.entrada {
+    color: black;
+    background: white;
+    border-bottom: 1px solid black;
+}
+
+.direccion {
+    grid-column: 1 / 3;
 }

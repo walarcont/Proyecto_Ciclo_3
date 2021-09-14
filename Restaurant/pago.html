@@ -4,6 +4,7 @@
 <head>
     <meta charset="UTF-8">
     <link rel="stylesheet" href="css/estilos.css">
+    <link rel="stylesheet" href="css/login-registro.css">
     <link rel="stylesheet" href="css/pago.css">
     <link rel="stylesheet" href="css/carrito.css">
     <link rel="stylesheet" href="css/normalize.css">
@@ -42,11 +43,40 @@
     </header>
 
     <div class="carrito">
-        <div class="carrito1">
+        <div class="pago">
             <h4 class="h4-pago no-margin no-padding">Complete la información:</h4>
-            <div class="form-pago">
-                
+            <div class="form1">
+                <span class="span">¿Dónde consumirá los productos?</span>
+                <select name="donde" class="entrada">
+                    <option disabled selected>Sede - Domicilio</option>
+                    <option>Sede</option>
+                    <option>Domicilio</option>
+                </select>
+                <input type="text" name="nombre__pago" class="entrada" placeholder="Ingrese sus nombres">
+                <input type="text" name="numero__pago" class="entrada" placeholder="Ingrese su número de teléfono">
+                <select name="direccion" class="direccion entrada">
+                    <option disabled selected>Elija la dirección</option>
+                    <option>Dirección 1</option>
+                </select>
+                <input type="text" name="adireccion__pago" class="entrada" placeholder="Añadir dirección">
+                <select name="pago" class="entrada">
+                    <option disabled selected>Elija el método de pago</option>
+                    <option>Pago 1</option>
+                    <option>Pago 2</option>
+                </select>
             </div>
+            <div class="form2">
+                <span class="span">Seleccione la sede</span>
+                <select name="donde" class="entrada">
+                    <option disabled selected>Seleccione la sede</option>
+                    <option>Sede 1</option>
+                    <option>Sede 2</option>
+                    <option>Sede 3</option>
+                </select>
+                <input type="text" name="apellido__pago" class="entrada" placeholder="Ingrese sus apellidos">
+                <input type="text" name="cedula__pago" class="entrada" placeholder="Ingrese su número de cédula">
+                <input type="text" name="numero__pago" class="entrada" placeholder="Edificio/Casa/Apartamento (Referencia)">
+            </div> 
         </div>
         
         <div class="resumen">
