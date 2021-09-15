@@ -102,45 +102,7 @@ li {
     transition: linear .2s all;
 }
 
-.icono:hover {
-    color: black;
-    cursor: pointer;
-    font-size: 42px;
-    transition: linear .2s all;
-}
-
-.submenu {
-    display: none;
-    margin-top: 15%;
-    margin-left: -80%;
-}
-
-#user:checked ~ .submenu {
-    display: block;
-}
-
-.opc-user {
-    position: relative;
-    display: flex;
-    text-align: center;
-    padding: 20px;
-    background: rgb(133, 133, 133);
-    color: white;
-    transition: linear .2s all;
-}
-
-.opc-user:hover {
-    background: black;
-    transition: linear .2s all;
-}
-
-#user {
-    display: none;
-}
-
 /* Boton carrito */
-
-
 .btn-carrito {
     background: #ffc400;
     color: black;
@@ -166,8 +128,8 @@ li {
 
 .container {
     position: fixed;
-    right: 10%;
-    margin-top: 10%;
+    right: 5%;
+    bottom: 5%;
 }
 
 /* Slider */
