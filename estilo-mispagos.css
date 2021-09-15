@@ -1,0 +1,63 @@
+#caja-op{
+    height: 600px;
+    width: 20%;
+    position: absolute;
+    margin: 5% auto;
+    background: rgba(0, 0, 0, 0.698);
+    padding: 10px;
+    overflow: hidden;
+    border-radius: 20px;
+    float: left;
+    color:cornsilk;
+    font-family: 'Product Sans', sans-serif;
+    font-size: 10px;
+}
+#caja-datos{
+    height: 700px;
+    width: 1400px;
+    margin: 5% auto;
+    background: rgba(0, 0, 0, 0.698);
+    padding: 10px;
+    float:right;
+    overflow: hidden;
+    border-radius: 20px;
+    color:cornsilk;
+    font-family: 'Product Sans', sans-serif;
+    font-size: 10px;
+}
+.caja-medios{
+    height: 200px;
+    width: 1300px;
+    margin: 5% auto;
+    background: rgba(122, 121, 121, 0.698);
+    padding: 5px;
+    float:unset;
+    overflow: hidden;
+    border-radius: 20px;
+    color:cornsilk;
+    font-family: 'Product Sans', sans-serif;
+    font-size: 10px;
+}
+.button{
+    margin: 15px;
+    padding: 15px;
+    cursor: pointer;
+    margin: auto;
+    display:inline-flex;
+    background: #ffc400;
+    border: 0;
+    position: relative;
+    left: 1100px;
+    bottom: 100px;
+    height: 50px;
+    width: 90px;
+    border-radius: 30px;
+    margin-bottom: 45px;
+    margin-top: 20px;
+    transition: linear .2s all;
+}
+.button:hover {
+    background: #a88102;
+    color: white;
+    transition: linear .2s all;
+}
