@@ -1,0 +1,63 @@
+.sedes {
+    background-color: rgb(243, 243, 243);
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 2px 2px 5px 0px rgba(150,150,150,1);
+    width: 80%;
+    margin: 40px auto 40px auto;
+    display: grid;
+    grid-template-columns: 35% 65%;
+    column-gap: 20px;
+}
+
+.h3__ubicaciones {
+    font-size: 25px;
+}
+
+.ubicaciones {
+    grid-column: 1;
+}
+
+.sede1__ubicaciones {
+    display: flex;
+    transition: all .2s ease;
+    cursor: pointer;
+    height: 60px;
+    align-items: center;
+}
+.sede2__ubicaciones {
+    display: flex;
+    transition: all .2s ease;
+    cursor: pointer;
+    height: 60px;
+    align-items: center;
+}
+.sede3__ubicaciones {
+    display: flex;
+    transition: all .2s ease;
+    cursor: pointer;
+    height: 60px;
+    align-items: center;
+}
+
+.enlace-ubicaciones {
+    text-decoration: none;
+    color: black;
+}
+
+.sede1__ubicaciones:hover {
+    font-size: 23px;
+    transition: all .2s ease;
+}
+.sede2__ubicaciones:hover {
+    font-size: 23px;
+    transition: all .2s ease;
+}
+.sede3__ubicaciones:hover {
+    font-size: 23px;
+    transition: all .2s ease;
+}
+
+.mapa {
+    grid-column: 2;
+}
