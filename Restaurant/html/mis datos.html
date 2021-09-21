@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <link rel="stylesheet" href="estilos.css">
+    <link rel="stylesheet" href="estilo-misdatos.css">
+    <link rel="stylesheet" href="normalize.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css"
+        integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mis datos</title>
+</head>
+<body>
+    <header class="header">
+        <div class="contenedor barra">
+            <nav class="navegacion">
+                <a href="index.html" class="navegacion__enlace">Inicio</a>
+                <a href="#" class="navegacion__enlace">Menú</a>
+                <a href="#" class="navegacion__enlace">Contáctanos</a>
+            </nav>
+            <a class="logo" href="index.html">
+                <h1 class="logo__nombre no-margin centrar-texto">Restaurante</h1>
+                <nav class="navegacion">
+                    <a href="#" class="navegacion__enlace">Reservas</a>
+                    <a href="#" class="navegacion__enlace">Sedes</a>
+                    <input type="checkbox" id="user">
+                    <label for="user" class="lbl-user"></label><i class="icono fas fa-user"></i></label>
+                </nav>
+            </a>
+        </div>
+    </header>
+    <div class="container">
+        <div id="caja-op">
+            <label for="user" class="lbl-user"><i class="icono fas fa-user">Username</i></label>
+            <br>
+            <nav class="boton">
+                <a href="mis datos.html"> Mis Datos</a>
+    
+            </nav>
+            <br>
+            <nav class="boton">
+                <a href="mis pedidos.html">Mis Pedidos</a>
+    
+            </nav>
+            <br>
+            <nav class="boton">
+                <a href="mis medios de pago.html">Mis Medios de pago</a>
+    
+            </nav>
+            <br>
+            <nav class="boton">
+                <a href="mis reservas.html">Mis Reservas</a>
+    
+            </nav>
+            <br>
+            <button class="boton">Cerrar sesión</button>
+         </div>
+     <div id="caja-datos">
+       <form class="datos">
+        <h4>Nombres</h4>
+        <input type="text" name="nombres" class="entrada" placeholder="Nombres" required>
+        <h4>Apellidos</h4>
+        <input type="text" name="apellidos" class="entrada"placeholder="Apellidos" required>
+        <h4>Email</h4>
+        <input type="text" name="mail" class="entrada" placeholder="Email" required>
+        <h4>Numero de contacto</h4>
+        <input type="text" name="numero" class="entrada"placeholder="Numero de contacto" required>
+        <button class="submit-btn">Editar</button>
+       </form>
+     </div>
+    </div>   
+    <footer class="footer">
+        <div class="footer__contacto">
+            <h4 class="titulo">Contáctanos</h4>
+            <p>Restaurante</p>
+            <p>Calle 00 00 00</p>
+            <p>Bogotá, Colombia</p>
+            <p>Llamanos: 3000000000</p>
+            <p>Email: contacto@restaurante.com</p>
+        </div>
+        <div class="footer__redes">
+            <h4 class="titulo">Síguenos</h4>
+            <a href="#" class="redes"><i class="fab fa-facebook-square"></i></a>
+            <a href="#" class="redes"><i class="fab fa-instagram"></i></a>
+            <a href="#" class="redes"><i class="fab fa-twitter"></i></a>
+            <a href="#" class="redes"><i class="fab fa-youtube"></i></a>
+        </div>
+        <div class="footer__info">
+        </div>
+    </footer>
+    
+</body>
+</html>
